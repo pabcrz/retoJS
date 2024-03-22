@@ -1,0 +1,27 @@
+{
+  "name": "retojs",
+  "version": "1.0.0",
+  "description": "reto JavaScript G32",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pabcrz/retoJS.git"
+  },
+  "author": "Pabcrz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pabcrz/retoJS/issues"
+  },
+  "homepage": "https://github.com/pabcrz/retoJS#readme",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "prettier": "^3.2.5"
+  }
+}

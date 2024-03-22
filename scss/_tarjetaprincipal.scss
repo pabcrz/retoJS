@@ -1,158 +1,157 @@
-.principal-card{
-    border-radius: 10px;
-    background-color: #ffffff;
-    width: 96%;
-    margin-top: 10px;
+.principal-card {
+  border-radius: 10px;
+  background-color: #ffffff;
+  width: 96%;
+  margin-top: 10px;
 }
 
 .head {
-    img{
-        width: 100%;
-        border-top-right-radius: 8px;
-        border-top-left-radius: 8px;
-    }
+  img {
+    width: 100%;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+  }
 }
 
-.content-card{
-    padding: 16px;
-    display: flex;
-    flex-direction: row;
-    p{
-        color: $secondary-text;
-        font-size: 12px;
-        margin-top: 5px;
-    }
-    h4{
-        font-weight: 400;
-        font-size: 15px;
-        padding: 8px 5px;
-        border-radius: 5px;
-    }
-    h4:hover{
-        background-color: $border-color;
-    }
-}
-
-.content-card2{
-    padding: 16px 60px;
-    display: flex;
-    flex-direction: column;
-    a{
-        max-width: 80%;
-    }
-    h3{
-        color: $main-text;
-        font-size: 30px;
-    }
-}
-
-.logo_image{
-    img{
-        border-radius: 50%;
-    }
-    position: relative;
-    display: inline-block;
-}
-
-.taipy-logo{
-    display: block;
-    img{
-        width: 52px;
-    }
-}
-.profile{
-    position: absolute;
-    top: 25px;
-    left: 25px;
-    img{
-        max-width: 20px;
-        border: solid 2px white;
-    }
-}
-
-.hashtags{
-    margin-top: 10px;
-    display: flex;
-    flex-direction: row;
-    width: 70%;
-    a{
-        padding: 8px 5px;
-        border-radius: 8px;
-    }
-    a:hover{
-        background-color: $hoverColor;
-    }
-}
-
-.center-buttons{
-    display: flex;
-    flex-direction: row;
-    width: 96%;
-    margin-top: 15px;
-}
-
-.center-button{
-    padding: 10px;
-    border-radius: 8px;
-    p{
-        font-size: 16px;
-    }
-
-}
-
-.center-button:hover{
-    background-color: white;
-    cursor: pointer;
-    p{
-        color: $accent-text;
-    }
-}
-
-.reactions{
-    display: flex;
-    justify-content: space-between;
-    margin-left: 40px;
-    padding: 20px;
-}
-
-.emojis-reaction{
-    display: flex;
-    a{
-        padding: 5px;
-        border-radius: 8px;
-        span{
-            color: $main-text;
-        }
-    }
-    a:hover{
-        background-color: $bgMain;
-    }
-}
-.emojis2{
-    display: flex;
-    align-items: center;
-}
-.save{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.button-save{
-    border: none;
-    outline: none;
-    padding: 3px;
-    background: none;
+.content-card {
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  p {
+    color: $secondary-text;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  h4 {
+    font-weight: 400;
+    font-size: 15px;
+    padding: 8px 5px;
     border-radius: 5px;
-    margin-left: 5px;
+  }
+  h4:hover {
+    background-color: $border-color;
+  }
 }
 
-.button-save:hover{
+.content-card2 {
+  padding: 16px 60px;
+  display: flex;
+  flex-direction: column;
+  a {
+    max-width: 80%;
+  }
+  h3 {
+    color: $main-text;
+    font-size: 30px;
+  }
+}
+
+.logo_image {
+  img {
+    border-radius: 50%;
+  }
+  position: relative;
+  display: inline-block;
+}
+
+.taipy-logo {
+  display: block;
+  img {
+    width: 52px;
+  }
+}
+.profile {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  img {
+    max-width: 20px;
+    border: solid 2px white;
+  }
+}
+
+.hashtags {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  a {
+    padding: 8px 5px;
+    border-radius: 8px;
+  }
+  a:hover {
     background-color: $hoverColor;
+  }
 }
 
-.save{
-    p{
-        font-size: 13px;
+.center-buttons {
+  display: flex;
+  flex-direction: row;
+  width: 96%;
+  margin-top: 15px;
+}
+
+.center-button {
+  padding: 10px;
+  border-radius: 8px;
+  p {
+    font-size: 16px;
+  }
+}
+
+.center-button:hover {
+  background-color: white;
+  cursor: pointer;
+  p {
+    color: $accent-text;
+  }
+}
+
+.reactions {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40px;
+  padding: 20px;
+}
+
+.emojis-reaction {
+  display: flex;
+  a {
+    padding: 5px;
+    border-radius: 8px;
+    span {
+      color: $main-text;
     }
+  }
+  a:hover {
+    background-color: $bgMain;
+  }
+}
+.emojis2 {
+  display: flex;
+  align-items: center;
+}
+.save {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.button-save {
+  border: none;
+  outline: none;
+  padding: 3px;
+  background: none;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.button-save:hover {
+  background-color: $hoverColor;
+}
+
+.save {
+  p {
+    font-size: 13px;
+  }
 }

@@ -1,14 +1,10 @@
 @mixin principal-font {
-
-    font-family: $main-font;
-
+  font-family: $main-font;
 }
 
 @mixin bold-font {
-
-    font-family: $main-font;
-    font-weight: bold;
-
+  font-family: $main-font;
+  font-weight: bold;
 }
 
-@import "variables";
+@import 'variables';

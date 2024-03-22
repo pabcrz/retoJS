@@ -1,43 +1,45 @@
-.discuss, .watercooler{
+.discuss,
+.watercooler {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: solid 1px $border-color;
+  border-radius: 8px;
+  background-color: $bg-discuss;
+  max-width: 100%;
+  margin-top: 15px;
+  a {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    border: solid 1px $border-color;
-    border-radius: 8px;
-    background-color: $bg-discuss;
-    max-width: 100%;
-    margin-top: 15px;
-    a{
-        display: flex;
-        flex-direction: column;
-        color: $main-text;
-    }
+    color: $main-text;
+  }
 
-    a:hover{
-        color: $accent-text;
-    }
-    p{
+  a:hover {
+    color: $accent-text;
+  }
+  p {
     color: $secondary-text;
-    }
+  }
 }
 
-.discussHeader, .waterHeader{
-    padding: 12px 16px;
-    border-bottom: $border-color solid 1px;
-    p{
-        font-size: 12px;
-    }
-    a{
-        font-weight: bold;
-        margin-bottom: 5px;
-    }
+.discussHeader,
+.waterHeader {
+  padding: 12px 16px;
+  border-bottom: $border-color solid 1px;
+  p {
+    font-size: 12px;
+  }
+  a {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
 }
 
-.discussItem{
-    padding: 16px;
-    border-bottom: $border-color solid 1px;
-    p{
-        margin-top: 5px;
-        font-size: 13.5px;
-    }
+.discussItem {
+  padding: 16px;
+  border-bottom: $border-color solid 1px;
+  p {
+    margin-top: 5px;
+    font-size: 13.5px;
+  }
 }

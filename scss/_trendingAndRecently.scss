@@ -1,33 +1,35 @@
-.recently, .trending{
-    display: flex;
-    flex-direction: column;
-    border-bottom: solid 1px #CCCCCC;
-    width: 100%;
-    margin: 10px 0;
-    padding-bottom: 10px;
-    a{
-        color: $main-text;
-        padding: 16px;
-    }
+.recently,
+.trending {
+  display: flex;
+  flex-direction: column;
+  border-bottom: solid 1px #cccccc;
+  width: 100%;
+  margin: 10px 0;
+  padding-bottom: 10px;
+  a {
+    color: $main-text;
+    padding: 16px;
+  }
 }
 
-.recentlyHeader{
-    display: flex;
-    h4{
-        padding: 16px 0;
-    }
+.recentlyHeader {
+  display: flex;
+  h4 {
+    padding: 16px 0;
+  }
 }
 
-.recentlyItems, .trending{
-    display: flex;
-    flex-direction: column;
-    align-items:baseline;
+.recentlyItems,
+.trending {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  width: 100%;
+  a {
     width: 100%;
-    a{
-        width: 100%;
-    }
-    a:hover{
-        background-color: $bg-discuss;
-        color: $accent-text;
-    }
+  }
+  a:hover {
+    background-color: $bg-discuss;
+    color: $accent-text;
+  }
 }
