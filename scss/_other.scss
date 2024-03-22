@@ -1,0 +1,36 @@
+.other{
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 1px #CCCCCC;
+    width: 100%;
+    margin: 10px 0;
+    padding-bottom: 10px;
+    a{
+        color: $main-text; 
+        margin-left: 5px;
+    }
+}
+
+.otherHeader{
+    margin: 10px 0;
+}
+.otherItems{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.otherItem{
+    display: flex;
+    align-items: center;
+    height: 46px;
+    border-radius: 8px;
+}
+
+.otherItem:hover{
+    background-color: $hoverColor;
+    a{
+        text-decoration: underline;
+        color: $accent-text;
+    }
+}

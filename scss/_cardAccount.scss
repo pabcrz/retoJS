@@ -1,0 +1,88 @@
+@import "variables";
+
+// .temp-container {
+
+//     border: 1px solid red;
+
+// }
+
+
+.account-card{
+    width: 100%;
+    padding: 16px;
+    background-color: white;//variable
+    font-family: sans-serif;
+    box-shadow: 0px 0px 0px 1px rgb(23, 23, 23, 0.05 );
+    border-radius: 8px;
+    margin-top: 15px;
+    h2, p{
+        margin: 20px 0;
+    }
+}
+.buttonCreateAcc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid $accent-text;//variable
+    text-align: center;
+    cursor: pointer;
+}
+.buttonCreateAcc:hover{
+    background-color: $accent-text;//variable
+    a{
+        color:white;
+        text-decoration-line: underline;
+    }
+}
+.subrayado{
+    text-decoration: none;
+    color: $accent-text;
+}
+
+.buttonLogIn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.buttonLogIn:hover{
+    cursor: pointer;
+    background-color: $hoverColor;
+    a{
+        text-decoration-line: underline;
+    }
+}
+// .devCommunity{
+//     font-family: sans-serif;
+//     height: auto;
+//     width: 100%;
+//     border-radius: 8px;
+//     text-align: center;
+//     cursor: pointer;
+// }
+// .titleDevCommunity{
+//     display: flex;
+//     position: relative;
+// }
+// .imgDev{
+//     width: 300px;
+//     height: 300px;
+//     cursor: zoom-in;
+// }
+
+.asideFooter{
+    color: #818181;
+    width: 100%;
+    padding: 0px;
+
+}
+
+

@@ -1,0 +1,31 @@
+.logo-links {
+
+    list-style: none;
+
+}
+
+.c-link-text {
+
+    text-align: center;
+
+}
+.links{
+    margin-top: 20px;
+}
+.mainlink:hover {
+    text-decoration: underline;
+    border-radius: 8px;
+    background-color: $hoverColor;
+    a{
+        color: $accent-text;
+    }
+  }
+.mainlink{
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+    a{
+        color: $main-text;
+        margin-left: 5px;
+    }
+}

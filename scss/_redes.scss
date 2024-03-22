@@ -1,0 +1,17 @@
+.conteiner-redes{
+    display: flex;
+    justify-content: space-between;
+    margin: 3px;
+    height: 40px;
+
+    .itemIcono{
+
+        padding: 8px;
+        border-radius: 8px;
+    }
+}
+
+.itemIcono:hover {
+
+   background-color: $hoverColor;
+}

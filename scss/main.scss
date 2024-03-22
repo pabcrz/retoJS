@@ -1,0 +1,107 @@
+@import "mixins";
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    @include principal-font;
+
+}
+
+a {
+
+    text-decoration: none;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: $bgMain;
+}
+
+#mainContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main {
+    display:flex;
+    justify-content: center;
+    background-color: $bgMain;
+    max-width: 1280px;
+}
+
+.main-flex-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: $bgMain;
+}
+
+.flex-container-column {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.links {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.left-aside{
+    display: flex;
+    max-width: 250px;
+    background-color: $bgMain;
+}
+
+.right-aside{
+    max-width: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $bgMain;
+}
+
+.center-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $bgMain;
+}
+
+.containerNav{
+    width: 100%;
+    background-color: $bg-discuss;
+    border-bottom: solid 1px $border-color;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 776px) {
+    .right-aside, .left-aside, .login, .input-text{
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    .right-aside{
+        display: none;
+    }
+}
+
+@import "cardAccount.scss";
+@import "mainLinks";
+@import "secondaryCard";
+@import "hashtag";
+@import "trendingAndRecently";
+@import "tarjetaprincipal";
+@import "navbar";
+@import "redes";
+@import "other";
