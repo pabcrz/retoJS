@@ -1,0 +1,63 @@
+.form {
+  //display: none;
+  background-color: $bg-discuss;
+  border-radius: 8px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  font-size: large;
+  padding: 10px 20px;
+  width: 350px;
+  p {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+
+.label {
+  // font-size: var(--sm);
+  font-weight: bold;
+  font-size: medium;
+  margin-bottom: 4px;
+}
+
+.input {
+  font-family: 'Quicksand', sans-serif;
+  background-color: $hoverColor;
+  border: none;
+  border-radius: 8px;
+  height: 32px;
+  padding: 4px 10px;
+  margin-bottom: 12px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  #create {
+    border: solid 1px $accent-text;
+  }
+  #cancel {
+    border: none;
+  }
+}
+
+.input-button {
+  // font-family: "Quicksand", sans-serif;
+  border-radius: 8px;
+  background-color: $bg-discuss;
+  color: $accent-text;
+  cursor: pointer;
+  font-size: medium;
+  height: 38px;
+  width: 100%;
+  margin: 10px 0;
+}
+
+#create:hover {
+  background-color: $accent-text;
+  color: $bg-discuss;
+}
+
+#cancel:hover {
+  background-color: $hoverColor;
+}

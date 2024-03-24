@@ -13,7 +13,7 @@ a {
 body {
   display: flex;
   justify-content: center;
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
 }
 
 #mainContainer {
@@ -26,14 +26,14 @@ body {
 .main {
   display: flex;
   justify-content: center;
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   max-width: 1280px;
 }
 
 .main-flex-container {
   display: flex;
   justify-content: space-around;
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
 }
 
 .flex-container-column {
@@ -49,7 +49,7 @@ body {
 .left-aside {
   display: flex;
   max-width: 250px;
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
 }
 
 .right-aside {
@@ -57,26 +57,29 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
 }
 
 .center-section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
 }
 
 .containerNav {
   width: 100%;
-  background-color: #FFFFFF;
-  border-bottom: solid 1px #E9E9E9;
+  background-color: #ffffff;
+  border-bottom: solid 1px #e9e9e9;
   display: flex;
   justify-content: center;
 }
 
 @media (max-width: 776px) {
-  .right-aside, .left-aside, .login, .input-text {
+  .right-aside,
+  .left-aside,
+  .login,
+  .input-text {
     display: none;
   }
 }
@@ -94,7 +97,8 @@ body {
   border-radius: 8px;
   margin-top: 15px;
 }
-.account-card h2, .account-card p {
+.account-card h2,
+.account-card p {
   margin: 20px 0;
 }
 
@@ -105,13 +109,13 @@ body {
   height: 40px;
   width: 100%;
   border-radius: 8px;
-  border: 1px solid #3B49DF;
+  border: 1px solid #3b49df;
   text-align: center;
   cursor: pointer;
 }
 
 .buttonCreateAcc:hover {
-  background-color: #3B49DF;
+  background-color: #3b49df;
 }
 .buttonCreateAcc:hover a {
   color: white;
@@ -120,7 +124,7 @@ body {
 
 .subrayado {
   text-decoration: none;
-  color: #3B49DF;
+  color: #3b49df;
 }
 
 .buttonLogIn {
@@ -137,7 +141,7 @@ body {
 
 .buttonLogIn:hover {
   cursor: pointer;
-  background-color: #EBECFC;
+  background-color: #ebecfc;
 }
 .buttonLogIn:hover a {
   text-decoration-line: underline;
@@ -164,10 +168,10 @@ body {
 .mainlink:hover {
   text-decoration: underline;
   border-radius: 8px;
-  background-color: #EBECFC;
+  background-color: #ebecfc;
 }
 .mainlink:hover a {
-  color: #3B49DF;
+  color: #3b49df;
 }
 
 .mainlink {
@@ -208,58 +212,67 @@ body {
   content: ❤;
 }
 
-.discuss, .watercooler {
+.discuss,
+.watercooler {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: solid 1px #E9E9E9;
+  border: solid 1px #e9e9e9;
   border-radius: 8px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   max-width: 100%;
   margin-top: 15px;
 }
-.discuss a, .watercooler a {
+.discuss a,
+.watercooler a {
   display: flex;
   flex-direction: column;
   color: #242424;
 }
-.discuss a:hover, .watercooler a:hover {
-  color: #3B49DF;
+.discuss a:hover,
+.watercooler a:hover {
+  color: #3b49df;
 }
-.discuss p, .watercooler p {
+.discuss p,
+.watercooler p {
   color: #575757;
 }
 
-.discussHeader, .waterHeader {
+.discussHeader,
+.waterHeader {
   padding: 12px 16px;
-  border-bottom: #E9E9E9 solid 1px;
+  border-bottom: #e9e9e9 solid 1px;
 }
-.discussHeader p, .waterHeader p {
+.discussHeader p,
+.waterHeader p {
   font-size: 12px;
 }
-.discussHeader a, .waterHeader a {
+.discussHeader a,
+.waterHeader a {
   font-weight: bold;
   margin-bottom: 5px;
 }
 
 .discussItem {
   padding: 16px;
-  border-bottom: #E9E9E9 solid 1px;
+  border-bottom: #e9e9e9 solid 1px;
 }
 .discussItem p {
   margin-top: 5px;
   font-size: 13.5px;
 }
 
-.recently, .trending {
+.recently,
+.trending {
   display: flex;
   flex-direction: column;
-  border-bottom: solid 1px #CCCCCC;
+  border-bottom: solid 1px #cccccc;
   width: 100%;
   margin: 10px 0;
   padding-bottom: 10px;
 }
-.recently a, .trending a {
+.recently a,
+.trending a {
   color: #242424;
   padding: 16px;
 }
@@ -271,21 +284,24 @@ body {
   padding: 16px 0;
 }
 
-.recentlyItems, .trending {
+.recentlyItems,
+.trending {
   display: flex;
   flex-direction: column;
   align-items: baseline;
   width: 100%;
 }
-.recentlyItems a, .trending a {
+.recentlyItems a,
+.trending a {
   width: 100%;
 }
-.recentlyItems a:hover, .trending a:hover {
-  background-color: #FFFFFF;
-  color: #3B49DF;
+.recentlyItems a:hover,
+.trending a:hover {
+  background-color: #ffffff;
+  color: #3b49df;
 }
 
-.principal-card {
+#principal-card {
   border-radius: 10px;
   background-color: #ffffff;
   width: 96%;
@@ -315,7 +331,7 @@ body {
   border-radius: 5px;
 }
 .content-card h4:hover {
-  background-color: #E9E9E9;
+  background-color: #e9e9e9;
 }
 
 .content-card2 {
@@ -331,11 +347,11 @@ body {
   font-size: 30px;
 }
 
-.logo_image {
+.logo-image {
   position: relative;
   display: inline-block;
 }
-.logo_image img {
+.logo-image img {
   border-radius: 50%;
 }
 
@@ -362,12 +378,12 @@ body {
   flex-direction: row;
   width: 70%;
 }
-.hashtags a {
+.hashtags span {
   padding: 8px 5px;
   border-radius: 8px;
 }
-.hashtags a:hover {
-  background-color: #EBECFC;
+.hashtags span:hover {
+  background-color: #ebecfc;
 }
 
 .center-buttons {
@@ -390,7 +406,7 @@ body {
   cursor: pointer;
 }
 .center-button:hover p {
-  color: #3B49DF;
+  color: #3b49df;
 }
 
 .reactions {
@@ -411,7 +427,7 @@ body {
   color: #242424;
 }
 .emojis-reaction a:hover {
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
 }
 
 .emojis2 {
@@ -435,7 +451,7 @@ body {
 }
 
 .button-save:hover {
-  background-color: #EBECFC;
+  background-color: #ebecfc;
 }
 
 .save p {
@@ -467,16 +483,16 @@ body {
 .botton-link {
   display: flex;
   justify-content: center;
-  border: 1px solid #3B49DF;
+  border: 1px solid #3b49df;
   padding: 10px;
   border-radius: 8px;
 }
 .botton-link a {
-  color: #3B49DF;
+  color: #3b49df;
 }
 
 .botton-link:hover {
-  background-color: #3B49DF;
+  background-color: #3b49df;
   cursor: pointer;
 }
 .botton-link:hover a {
@@ -491,12 +507,12 @@ body {
   border-radius: 8px;
 }
 .login a {
-  color: #3B49DF;
+  color: #3b49df;
 }
 
 .login:hover {
   cursor: pointer;
-  background-color: #EBECFC;
+  background-color: #ebecfc;
 }
 .login:hover a {
   text-decoration-line: underline;
@@ -529,19 +545,19 @@ a:visited {
 .tagCont:hover {
   background-color: rgba(59, 73, 223, 0.1);
   text-decoration: underline;
-  background-color: #EBECFC;
+  background-color: #ebecfc;
 }
 .tagCont:hover a {
   text-decoration: none;
-  color: #3B49DF;
+  color: #3b49df;
 }
 
 .seccion7 {
   margin: 10px 0;
-  border: 1px solid #E9E9E9;
+  border: 1px solid #e9e9e9;
   border-radius: 8px;
   padding: 16px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   width: 100%;
 }
 .seccion7 h3 {
@@ -564,13 +580,13 @@ a:visited {
 }
 
 .itemIcono:hover {
-  background-color: #EBECFC;
+  background-color: #ebecfc;
 }
 
 .other {
   display: flex;
   flex-direction: column;
-  border-bottom: solid 1px #CCCCCC;
+  border-bottom: solid 1px #cccccc;
   width: 100%;
   margin: 10px 0;
   padding-bottom: 10px;
@@ -598,9 +614,70 @@ a:visited {
 }
 
 .otherItem:hover {
-  background-color: #EBECFC;
+  background-color: #ebecfc;
 }
 .otherItem:hover a {
   text-decoration: underline;
-  color: #3B49DF;
+  color: #3b49df;
+}
+
+.form {
+  background-color: #ffffff;
+  border-radius: 8px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  font-size: large;
+  padding: 10px 20px;
+  width: 350px;
+}
+.form p {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.label {
+  font-weight: bold;
+  font-size: medium;
+  margin-bottom: 4px;
+}
+
+.input {
+  font-family: "Quicksand", sans-serif;
+  background-color: #ebecfc;
+  border: none;
+  border-radius: 8px;
+  height: 32px;
+  padding: 4px 10px;
+  margin-bottom: 12px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.form #create {
+  border: solid 1px #3b49df;
+}
+.form #cancel {
+  border: none;
+}
+
+.input-button {
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: #3b49df;
+  cursor: pointer;
+  font-size: medium;
+  height: 38px;
+  width: 100%;
+  margin: 10px 0;
+}
+
+#create:hover {
+  background-color: #3b49df;
+  color: #ffffff;
+}
+
+#cancel:hover {
+  background-color: #ebecfc;
 }/*# sourceMappingURL=main.css.map */

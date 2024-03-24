@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel=impor href="">
+    <script src="./prueba.js"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/main.css" />
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -29,7 +31,7 @@
     />
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <link rel="manifest" href="assets/site.webmanifest" />
-    <title>Desafío Dev To</title>
+    <title>Dev To JavaScript</title>
   </head>
 
   <body>
@@ -51,7 +53,7 @@
               <a href="">log in</a>
             </div>
             <div class="botton-link">
-              <a href="">create account</a>
+              <a href="./form.html">New post</a>
             </div>
           </div>
         </nav>
@@ -1048,17 +1050,19 @@
               </div>
             </div>
             <!-- Principal Card 9-->
-            <div class="principal-card">
+            <div id="principal-card">
               <div class="head">
+                <!-- src="https://res.cloudinary.com/practicaldev/image/fetch/s--vwy4Bevt--/c_imagga_scale,f_auto,fl_progressive,h_420,q_66,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vcmazu3qgcqavisfr6f8.gif" -->
                 <img
-                  src="https://res.cloudinary.com/practicaldev/image/fetch/s--vwy4Bevt--/c_imagga_scale,f_auto,fl_progressive,h_420,q_66,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vcmazu3qgcqavisfr6f8.gif"
+                  class="imagenPost"
+                  src="https://picsum.photos/700/400?random"
                   alt="imagen de la web"
                 />
               </div>
               <!-- Header Image -->
               <!--card double-->
               <div class="content-card">
-                <div class="logo_image">
+                <div class="logo-image">
                   <div class="taipy-logo">
                     <img
                       alt="taipy logo"
@@ -1079,36 +1083,15 @@
                 </div>
               </div>
               <div class="content-card2">
-                <a
-                  href="//dev.to/taipy/top-42-python-libraries-you-need-to-know-1omo"
-                >
-                  <h3>Top 42 🐍 Python libraries you need to know 🦾</h3>
-                </a>
+                <h3 class="titulo-post">Top 42 🐍 Python libraries you need to know 🦾</h3>
+                <p class="contenido-post">
+                  Aqui va el contenido del post que el usuario va a ingresar.
+                  Lorem ipsum, dolor si t amet consectetur adipisicing elit. Sequi soluta architecto, reprehenderit aperiam perferendis cumque explicabo, blanditiis minima dolore commodi expedita error nulla quidem nam incidunt doloribus saepe? Tempora, doloremque?
+                </p>
                 <div class="hashtags">
-                  <a
-                    class="tags--monochrome"
-                    style="color: #1e38bb"
-                    href="/t/python"
-                    ><span class="tags__color">#</span>python
-                  </a>
-                  <a
-                    class="tags--monochrome"
-                    style="color: #000000"
-                    href="/t/github"
-                    ><span class="tags__color">#</span>github
-                  </a>
-                  <a
-                    class="tags--monochrome"
-                    style="color: #af27f2"
-                    href="/t/coding"
-                    ><span class="tags__color">#</span>coding
-                  </a>
-                  <a
-                    class="tags--monochrome"
-                    style="color: #890606"
-                    href="/t/programming"
-                    ><span class="tags__color">#</span>programming
-                  </a>
+                  <span>#html</span>
+                  <span>#JS</span>
+                  <span>#CSS</span>
                 </div>
               </div>
               <div class="reactions">
@@ -1180,18 +1163,8 @@
                   </a>
                 </div>
                 <div class="save">
-                  <p>7 min read</p>
                   <button class="button-save" type="button">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      aria-hidden="true"
-                    >
-                      <path
-                        d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"
-                      ></path>
-                    </svg>
+                    Delete
                   </button>
                 </div>
               </div>

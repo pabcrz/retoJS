@@ -1,4 +1,4 @@
-.principal-card {
+#principal-card {
   border-radius: 10px;
   background-color: #ffffff;
   width: 96%;
@@ -46,7 +46,7 @@
   }
 }
 
-.logo_image {
+.logo-image {
   img {
     border-radius: 50%;
   }
@@ -75,11 +75,11 @@
   display: flex;
   flex-direction: row;
   width: 70%;
-  a {
+  span {
     padding: 8px 5px;
     border-radius: 8px;
   }
-  a:hover {
+  span:hover {
     background-color: $hoverColor;
   }
 }

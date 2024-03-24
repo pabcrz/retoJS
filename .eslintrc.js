@@ -22,5 +22,9 @@ module.exports = {
     sourceType: 'module'
   },
   rules: {
+    'no-unused-vars': [
+      'error',
+      { vars: 'nose', args: 'after-used', ignoreRestSiblings: false }
+    ]
   }
 }
