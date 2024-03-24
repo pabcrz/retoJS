@@ -1,3 +1,7 @@
+import update from "./js/modules/update.js"
+
+update()
+
 document.addEventListener('DOMContentLoaded', () => {
   const form = document.querySelector('#new-post')
   form.addEventListener('submit', (event) => {
