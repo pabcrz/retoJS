@@ -1,5 +1,10 @@
+import previewData from "./js/modules/update.js"
 import validateForm from "./validacionform.js"
+
 document.addEventListener('DOMContentLoaded', () => {
+  const currentId = new URLSearchParams(location.search).get('post');
+  currentId && previewData(currentId);
+  
   const form = document.querySelector('#new-post')
   form.addEventListener('submit', (event) => {
     event.preventDefault()
