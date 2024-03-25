@@ -133,6 +133,9 @@
   .emojis:hover {
     background-color: $bgMain;
   }
+  span {
+    margin: 0 3px;
+  }
 }
 .emojis {
   display: flex;
