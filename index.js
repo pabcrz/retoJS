@@ -1,8 +1,9 @@
-import update from "./js/modules/update.js"
-
-update()
+import previewData from "./js/modules/update.js"
 
 document.addEventListener('DOMContentLoaded', () => {
+  const currentId = new URLSearchParams(location.search).get('post');
+  currentId && previewData(currentId);
+  
   const form = document.querySelector('#new-post')
   form.addEventListener('submit', (event) => {
     event.preventDefault()
