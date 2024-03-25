@@ -1,4 +1,4 @@
-#principal-card {
+.principal-card {
   border-radius: 10px;
   background-color: #ffffff;
   width: 96%;
@@ -116,18 +116,18 @@
 
 .emojis-reaction {
   display: flex;
-  a {
+  .emojis {
     padding: 5px;
     border-radius: 8px;
     span {
       color: $main-text;
     }
   }
-  a:hover {
+  .emojis:hover {
     background-color: $bgMain;
   }
 }
-.emojis2 {
+.emojis {
   display: flex;
   align-items: center;
 }

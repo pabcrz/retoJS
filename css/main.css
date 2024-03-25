@@ -301,7 +301,7 @@ body {
   color: #3b49df;
 }
 
-#principal-card {
+.principal-card {
   border-radius: 10px;
   background-color: #ffffff;
   width: 96%;

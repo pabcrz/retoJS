@@ -24,7 +24,7 @@ module.exports = {
   rules: {
     'no-unused-vars': [
       'error',
-      { vars: 'nose', args: 'after-used', ignoreRestSiblings: false }
+      { vars: 'none', args: 'after-used', ignoreRestSiblings: false }
     ]
   }
 }
