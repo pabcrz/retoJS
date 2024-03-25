@@ -1,3 +1,4 @@
+import updateBoton from "./updateBtn.js"
 const crearHashtags = (array, padre) => {
   //recibir array
   //recorrer foreach
@@ -7,15 +8,6 @@ const crearHashtags = (array, padre) => {
     span.textContent = element
     padre.append(span)
   })
-}
-
-const updatePost = (id, btnUpdate) => {
-  btnUpdate.addEventListener('click', () => {
-    window.open(location.origin + '/form.html?post=' + id)
-  })
-  // recibe post.id
-  // manda el id por url
-  // http://127.0.0.1:5500/form.html?post=n
 }
 
 const deletePost = (id, posts, btnDelete) => {
@@ -116,8 +108,10 @@ export default (arrayPosts) => {
       'https://dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg'
     const reactionPost = document.createElement('span')
     reactionPost.classList.add('reaction-post')
+    reactionPost.textContent = post.reacciones + ' reacciones'
     const commentsPost = document.createElement('span')
     commentsPost.classList.add('comments-post')
+    commentsPost.textContent =  post.comentarios + ' comentarios'
 
     // Update Delete
     const deleteUpdate = document.createElement('div')
@@ -125,12 +119,11 @@ export default (arrayPosts) => {
     const deleteBtn = document.createElement('button')
     deleteBtn.classList.add('button-delete')
     deleteBtn.textContent = 'Delete'
+    deletePost(post.id, arrayPosts, deleteBtn)
     const updateBtn = document.createElement('button')
     updateBtn.classList.add('button-update')
-    deletePost(post.id, arrayPosts, deleteBtn)
     updateBtn.textContent = 'Update'
-    updatePost(post.id, updateBtn) // mandar info a la funcion
-
+    updateBoton(post.id, updateBtn)
     //head
     container.append(card)
     card.append(head)

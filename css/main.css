@@ -452,6 +452,9 @@ body {
 .emojis-reaction .emojis:hover {
   background-color: #f5f5f5;
 }
+.emojis-reaction span {
+  margin: 0 3px;
+}
 
 .emojis {
   display: flex;
