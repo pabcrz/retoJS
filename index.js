@@ -19,4 +19,5 @@ document.addEventListener('DOMContentLoaded', () => {
     localStorage.setItem('users', jsonString)}
     
   })
+  console.log(typeof localStorage.getItem('users'))
 })

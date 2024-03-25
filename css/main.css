@@ -418,40 +418,47 @@ body {
 
 .emojis-reaction {
   display: flex;
+  align-items: center;
 }
-.emojis-reaction a {
+.emojis-reaction .emojis {
   padding: 5px;
   border-radius: 8px;
 }
-.emojis-reaction a span {
+.emojis-reaction .emojis span {
   color: #242424;
 }
-.emojis-reaction a:hover {
+.emojis-reaction img {
+  width: 18px;
+  height: 18px;
+}
+.emojis-reaction .emojis:hover {
   background-color: #f5f5f5;
 }
 
-.emojis2 {
+.emojis {
   display: flex;
   align-items: center;
 }
 
-.save {
+.delete-update {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.button-save {
+.button-delete, .button-update {
   border: none;
   outline: none;
-  padding: 3px;
+  font-size: 16px;
+  padding: 8px;
   background: none;
   border-radius: 5px;
   margin-left: 5px;
 }
 
-.button-save:hover {
+.button-delete:hover, .button-update:hover {
   background-color: #ebecfc;
+  cursor: pointer;
 }
 
 .save p {
