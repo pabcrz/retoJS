@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="./css/main.css" />
-    <script src="./prueba.js"></script>
+    <script src="./index.js" type="module"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap"
       rel="stylesheet"
@@ -1050,130 +1050,12 @@
               <div class="center-button">
                 <p>Top</p>
               </div>
+              <input type="date" id="filtro">
             </div>
-            <!-- Principal Card 9-->
-            <div class="principal-card">
-              <div class="head">
-                <!-- src="https://res.cloudinary.com/practicaldev/image/fetch/s--vwy4Bevt--/c_imagga_scale,f_auto,fl_progressive,h_420,q_66,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vcmazu3qgcqavisfr6f8.gif" -->
-                <img
-                  class="imagen-post"
-                  src="https://picsum.photos/700/400?random"
-                  alt="imagen de la web"
-                />
-              </div>
-              <!-- Header Image -->
-              <!--card double-->
-              <div class="content-card">
-                <div class="logo-image">
-                  <div class="taipy-logo">
-                    <img
-                      alt="taipy logo"
-                      src="https://res.cloudinary.com/practicaldev/image/fetch/s--q8gYXd8Q--/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://dev-to-uploads.s3.amazonaws.com/uploads/organization/profile_image/7841/eb7a94b7-7bd9-4097-b7e9-132785adc6db.png"
-                    />
-                  </div>
-                  <div class="profile">
-                    <img
-                      src="https://res.cloudinary.com/practicaldev/image/fetch/s--ZMDQfkJE--/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/1177677/4947a9f8-ba30-4008-9f77-4b08c5b1c901.jpg"
-                      alt=" profile"
-                    />
-                  </div>
-                </div>
-
-                <div class="name-date">
-                  <h4 class="autor">Marine for Taipy</h4>
-                  <p class="fecha">Dec 18</p>
-                </div>
-              </div>
-              <div class="content-card2">
-                <h3 class="titulo-post">
-                  Top 42 🐍 Python libraries you need to know 🦾
-                </h3>
-                <p class="contenido-post">
-                  Aqui va el contenido del post que el usuario va a ingresar.
-                  Lorem ipsum, dolor si t amet consectetur adipisicing elit.
-                  Sequi soluta architecto, reprehenderit aperiam perferendis
-                  cumque explicabo, blanditiis minima dolore commodi expedita
-                  error nulla quidem nam incidunt doloribus saepe? Tempora,
-                  doloremque?
-                </p>
-                <div class="hashtags">
-                  <span>#html</span>
-                  <span>#JS</span>
-                  <span>#CSS</span>
-                </div>
-              </div>
-              <div class="reactions">
-                <div class="emojis-reaction">
-                  <img
-                    src="https://dev.to/assets/fire-f60e7a582391810302117f987b22a8ef04a2fe0df7e3258a5f49332df1cec71e.svg"
-                  />
-                  <img
-                    src="https://dev.to/assets/raised-hands-74b2099fd66a39f2d7eed9305ee0f4553df0eb7b4f11b01b6b1b499973048fe5.svg"
-                  />
-                  <img
-                    src="https://dev.to/assets/exploding-head-daceb38d627e6ae9b730f36a1e390fca556a4289d5a41abb2c35068ad3e2c4b5.svg"
-                  />
-                  <img
-                    src="https://dev.to/assets/multi-unicorn-b44d6f8c23cdd00964192bedc38af3e82463978aa611b4365bd33a0f1f4f3e97.svg"
-                  />
-                  <img
-                    src="https://dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg"
-                  />
-                  <span class="reaction-post">132 reaction </span>
-                  <span class="comments-post">17 comments</span>
-                </div>
-                <div class="delete-update">
-                  <button class="button-delete" type="button">Delete</button>
-                  <button class="button-update" type="button">Update</button>
-                </div>
-              </div>
+            <div id="post-cards">
+              <p id="no-data" hidden>No se encontraron Post con la fecha seleccionada</p>
             </div>
-            <!-- Secondary Card 11-->
-            <div class="secondary-card">
-              <div class="secondary-card-header">
-                <div>
-                  <h5>DEV Community</h5>
-                </div>
-                <div>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    role="img"
-                    aria-labelledby="abjml9jkfx8lt0nfpddvgcjo2607sxfz"
-                    class="crayons-icon pointer-events-none"
-                  >
-                    <title id="abjml9jkfx8lt0nfpddvgcjo2607sxfz">
-                      Dropdown menu
-                    </title>
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M8.25 12a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zm5.25 0a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zm3.75 1.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"
-                    ></path>
-                  </svg>
-                </div>
-              </div>
-              <div class="card-picture">
-                <img src="./img/Card_1.png" alt="Card Image" />
-              </div>
-              <div class="secondary-card-content">
-                <h3>
-                  Need to stay up-to-date with the most relevant trends in
-                  software, such as generate AI, cloud computing, and all things
-                  frontend?
-                </h3>
-                <p>Look no further.</p>
-                <p>
-                  You can do so much more once you
-                  <span>create your account</span>. Follow the devs and topics
-                  you care about, and keep up-to-date.
-                </p>
-                <h3><a href="">Start Now</a></h3>
-                <p>Happy coding ❤</p>
-              </div>
-            </div>
+            
           </div>
           <!-- Right Aside -->
           <div class="right-aside container flex-container-column">
