@@ -47,7 +47,32 @@ document.addEventListener('DOMContentLoaded', () => {
   hashtags.classList.add('hashtags')
 
   // Reacciones
-  c
+  const reactions = document.createElement('div')
+  reactions.classList.add('reactions')
+  const emojis = document.createElement('div')
+  emojis.classList.add('emojis-reaction')
+  const emojiFire = document.createElement('img')
+  emojiFire.src='https://dev.to/assets/fire-f60e7a582391810302117f987b22a8ef04a2fe0df7e3258a5f49332df1cec71e.svg'
+  const emojiHands= document.createElement('img')
+  emojiHands.src='https://dev.to/assets/raised-hands-74b2099fd66a39f2d7eed9305ee0f4553df0eb7b4f11b01b6b1b499973048fe5.svg'
+  const emojiExplote = document.createElement('img')
+  emojiExplote.src='https://dev.to/assets/exploding-head-daceb38d627e6ae9b730f36a1e390fca556a4289d5a41abb2c35068ad3e2c4b5.svg'
+  const emojiUnicorn = document.createElement('img')
+  emojiUnicorn.src='https://dev.to/assets/multi-unicorn-b44d6f8c23cdd00964192bedc38af3e82463978aa611b4365bd33a0f1f4f3e97.svg'
+  const emojiHeart = document.createElement('img')
+  emojiHeart.src='https://dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg'
+  const reactionPost = document.createElement('span')
+  reactionPost.classList.add('reaction-post')
+  const commentsPost = document.createElement('span')
+  commentsPost.classList.add('comments-post')
+
+  // Update Delete
+  const deleteUpdate = document.createElement('div')
+  deleteUpdate.classList.add('delete-update')
+  const deleteBtn = document.createElement('button')
+  deleteBtn.classList.add('button-delete')
+  const updateBtn = document.createElement('button')
+  updateBtn.classList.add('button-update')
 
   container.append(head)
   head.append(imagen)
@@ -57,6 +82,4 @@ document.addEventListener('DOMContentLoaded', () => {
   taipyLogo.append(imagenPerfil1)
   logoImage.append(profile)
   profile.append(imagenPerfil2)
-
-  console.log('jolaaaa')
 })
