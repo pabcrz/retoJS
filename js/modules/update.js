@@ -16,9 +16,9 @@ export default function previewData(currentId) {
 
     if(info) {
         //Activar el boton de update
-        document.getElementById('btnPost').disabled = true
+        document.getElementById('btnPost').hidden = true
         const btn = document.getElementById('btnUpdate')
-        btn.disabled = false
+        btn.hidden = false
 
         //Rellenar los inputs con los valores
         const { id, ...newObject } = info.post;
@@ -33,7 +33,6 @@ export default function previewData(currentId) {
         }) 
 
         //Mandar a llamar a update
-        //update()
 
         btn.addEventListener('click', (event) => {
             event.preventDefault()
