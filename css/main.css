@@ -28,12 +28,14 @@ body {
   justify-content: center;
   background-color: #f5f5f5;
   max-width: 1280px;
+  width: 100%;
 }
 
 .main-flex-container {
   display: flex;
   justify-content: space-around;
   background-color: #f5f5f5;
+  width: 100%;
 }
 
 .flex-container-column {
@@ -65,6 +67,20 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: #f5f5f5;
+  width: 100%;
+}
+
+#post-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+#filtro {
+  border-radius: 5px;
+  border: solid 1px;
+  padding: 5px;
 }
 
 .containerNav {
@@ -394,6 +410,8 @@ body {
 }
 
 .center-button {
+  display: flex;
+  align-items: center;
   padding: 10px;
   border-radius: 8px;
 }

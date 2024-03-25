@@ -92,6 +92,8 @@
 }
 
 .center-button {
+  display: flex;
+  align-items: center;
   padding: 10px;
   border-radius: 8px;
   p {
