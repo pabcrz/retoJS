@@ -29,12 +29,14 @@ body {
   justify-content: center;
   background-color: $bgMain;
   max-width: 1280px;
+  width: 100%;
 }
 
 .main-flex-container {
   display: flex;
   justify-content: space-around;
   background-color: $bgMain;
+  width: 100%;
 }
 
 .flex-container-column {
@@ -66,6 +68,20 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: $bgMain;
+  width: 100%;
+}
+
+#post-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+#filtro {
+  border-radius: 5px;
+  border: solid 1px;
+  padding: 5px;
 }
 
 .containerNav {
@@ -100,3 +116,4 @@ body {
 @import 'navbar';
 @import 'redes';
 @import 'other';
+@import 'form';

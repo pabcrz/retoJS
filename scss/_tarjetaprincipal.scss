@@ -46,7 +46,7 @@
   }
 }
 
-.logo_image {
+.logo-image {
   img {
     border-radius: 50%;
   }
@@ -70,16 +70,33 @@
   }
 }
 
+.p-nodata {
+  display: none;
+}
+
+.reload {
+  height: 50%;
+  width: 30px;
+  margin: auto 0;
+  background-color: transparent;
+  border-radius: 8px;
+  border: 1px black;
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
 .hashtags {
   margin-top: 10px;
   display: flex;
   flex-direction: row;
   width: 70%;
-  a {
+  span {
     padding: 8px 5px;
     border-radius: 8px;
   }
-  a:hover {
+  span:hover {
     background-color: $hoverColor;
   }
 }
@@ -92,6 +109,8 @@
 }
 
 .center-button {
+  display: flex;
+  align-items: center;
   padding: 10px;
   border-radius: 8px;
   p {
@@ -116,38 +135,51 @@
 
 .emojis-reaction {
   display: flex;
-  a {
+  align-items: center;
+  .emojis {
     padding: 5px;
     border-radius: 8px;
     span {
       color: $main-text;
     }
   }
-  a:hover {
+  img {
+    width: 18px;
+    height: 18px;
+  }
+  .emojis:hover {
     background-color: $bgMain;
   }
+  span {
+    margin: 0 3px;
+  }
 }
-.emojis2 {
+.emojis {
   display: flex;
   align-items: center;
 }
-.save {
+
+.delete-update {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.button-save {
+.button-delete,
+.button-update {
   border: none;
   outline: none;
-  padding: 3px;
+  font-size: 16px;
+  padding: 8px;
   background: none;
   border-radius: 5px;
   margin-left: 5px;
 }
 
-.button-save:hover {
+.button-delete:hover,
+.button-update:hover {
   background-color: $hoverColor;
+  cursor: pointer;
 }
 
 .save {
