@@ -1049,8 +1049,13 @@
               <div class="center-button">
                 <p>Top</p>
               </div>
-              <div class="center-button"><input type="date" id="filtro"></div>
+              <div class="center-button">
+                <input type="date" id="filtro">
+              </div>
+              <button class="reload" onclick="location.reload()">
+              <img src="/img/refresh.svg" alt=""></button>
             </div>
+            <p id="no-data" class="p-nodata"> No se encontraron Post con la fecha seleccionada</p>
             <div id="post-cards">
             </div>
             
